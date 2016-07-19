@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="26dp"
+        android:text="MA"
+        android:textSize="@dimen/mijin" />
+
+    <TextView
+        android:id="@+id/txtpalabra1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:text="Palabra 1" />
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ibtn3"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/checkpalabra1"
+        android:text="MA"
+        android:textSize="@dimen/mijin" />
+
+    <TextView
+        android:id="@+id/txtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv1"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/checkpalabra1"
+        android:text="PA"
+        android:textSize="@dimen/mijin" />
+
+    <TextView
+        android:id="@+id/txtv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv2"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/checkpalabra1"
+        android:hint="SA"
+        android:text="SA"
+        android:textSize="@dimen/mijin" />
+
+    <TextView
+        android:id="@+id/txtaux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv3"
+        android:layout_toRightOf="@+id/txtpalabra2"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/checkpalabra1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtaux"
+        android:layout_centerVertical="true" />
+
+    <CheckBox
+        android:id="@+id/checkpalabra3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpalabra1"
+        android:layout_toLeftOf="@+id/txtv2" />
+
+    <TextView
+        android:id="@+id/txtpalabra3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkpalabra3"
+        android:layout_alignBottom="@+id/checkpalabra3"
+        android:layout_alignLeft="@+id/txtpalabra1"
+        android:text="Palabra 2" />
+
+    <TextView
+        android:id="@+id/txtpalabra2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtpalabra3"
+        android:layout_below="@+id/checkpalabra3"
+        android:text="Palabra 3" />
+
+    <CheckBox
+        android:id="@+id/checkpalabra2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtpalabra2"
+        android:layout_alignBottom="@+id/txtpalabra2"
+        android:layout_toLeftOf="@+id/txtv3" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtv2"
+        android:layout_toRightOf="@+id/checkpalabra1" />
+
+    <ImageButton
+        android:id="@+id/ibtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginRight="42dp"
+        android:src="@drawable/ico_mic" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cipolat.slidenavigation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+ 	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<permission android:name="com.cipolat.slidenavigation.permission.C2D_MESSAGE"
+     android:protectionLevel="signature" />
+	<uses-permission android:name="com.cipolat.slidenavigation.permission.C2D_MESSAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Mi Ciudad"
+        android:theme="@style/Calros" >
+        <activity
+            android:name="com.cipolat.slidenavigation.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cipolat.slidenavigation.juegos.Tablero1"
+            android:label="@string/app_name" >
+        </activity> 
+               
+        <activity
+            android:name="registro.RegistroInicial"
+            android:label="@string/app_name" >
+         </activity>  
+         <activity
+            android:name="com.cipolat.slidenavigation.Ejemplo1"
+            android:label="Actividad 1" >
+         </activity>
+         <activity
+            android:name="com.cipolat.slidenavigation.Ejemplo1Web"
+            android:label="Actividad 1" >
+         </activity>
+         <activity
+            android:name="com.cipolat.slidenavigation.ejem3web"
+            android:label="Actividad 3" >
+         </activity>  
+         <activity
+            android:name="com.cipolat.slidenavigation.Ejemplo2"
+            android:label="Actividad 2" >
+         </activity>  
+         <activity
+            android:name="com.cipolat.slidenavigation.Ejemplo3"
+            android:label="Actividad 3" >
+         </activity> 
+         <activity
+            android:name="com.cipolat.slidenavigation.Ejemplo4"
+            android:label="Actividad 4">
+         </activity>    
+                <activity android:name=".CollectionDemoActivity" android:label="Ejemplo2" />            
+        <receiver
+         android:name=".GCMBroadcastReceiver"
+         android:permission="com.google.android.c2dm.permission.SEND" >
+         <intent-filter>
+              <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+              <category android:name="com.cipolat.slidenavigation" />
+         </intent-filter>
+     </receiver>
+ 
+     <service android:name=".GCMIntentService" />
+
+    </application>
+
+</manifest>

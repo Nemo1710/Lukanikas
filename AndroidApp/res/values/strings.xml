@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lukanikas</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="hello_world">Hola mundo</string>
+    <!-- Lista de titulos de navegacion-->    
+    <string-array name="nav_options">
+        <item>Inicio</item>
+        <item>Diccionario</item>
+        <item>Agregar Formas</item>
+        <item>Seguimiento avance</item>
+        <item>Porcentaje cumplimiento</item>
+        <item>Gráficos alto impacto</item>
+        <item>Noticias</item>
+        <item>Salir</item>
+    </string-array>
+    <!-- Lista de iconos de navegacion-->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_place</item>
+             
+    </array>
+        <string name="boton_Aceptar">Aceptar</string>
+        <string name="iniciar">Iniciar sesión</string>
+        <string name="usuario">Nombre de usuario</string>
+        <string name="password">Contraseña</string>    
+        
+       <string name="title">Ask a Yes/No question to the Fortune Wheel</string>
+    <string name="stronger">Come on, spin it a bit stronger</string>
+    <string name="add">Add</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="delete">Delete</string>
+    <string name="menu_config">Configure</string>
+    <string name="config">Configuration</string>
+    <string-array name="predefined">
+        <item>I think you can answer that yourself</item>
+        <item>Every time you spin this wheel God kills a kitten</item>
+        <item>Let me a second while I google it...</item>
+        <item>All polls agree on that</item>
+        <item>I think so</item>
+        <item>The answer is obviously 42</item>
+        <item>Good question! No idea :(</item>
+        <item>You will know it very soon...</item>
+        <item>Yes! Why not?</item>
+        <item>I never doubted it</item>
+        <item>I\'m completely sure about that</item>
+        <item>Do not count on that</item>
+        <item>Maybe tomorrow</item>
+        <item>Come on! I don\'t even know you</item>
+        <item>Yes, with 50%</item>
+        <item>Yes, yes, of course...</item>
+        <item>Sorry, ¿what did you say?</item>
+        <item>Forget it</item>
+        <item>Try again</item>
+        <item>No way</item>
+        <item>Are you serious?</item>
+        <item>No a thousand times</item>
+        <item>Yeah, whatever...</item>
+        <item>Yes, when pigs fly</item>
+        <item>I think someone\'s stolen your pocket</item>
+        <item>Never in this live</item>
+        <item>Who knows?</item>
+        <item>How you want me to know?</item>
+        <item>I bet!</item>
+        <item>Come off it</item>
+        <item>There\'s a possibility</item>
+        <item>I guess that\'s impossible</item>
+        <item>No hope in hell</item>
+        <item>You must be joking</item>
+        <item>Dream on!</item>
+        <item>That\'s clear to everyone, even the dumbest</item>
+        <item>Ask me another thing</item>
+        <item>No idea, sorry</item>
+        <item>Better if you do not know</item>
+        <item>Never ever</item>
+        <item>Why does everybody ask the same?</item> 
+        <item>I don\'t know and I don\'t care</item>
+        <item>I\'m sorry, but NO!</item>
+    </string-array>
+        <string name="name">Nombre</string>
+        <string name="edad">Seccion</string>
+        <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>   
+</resources>
+

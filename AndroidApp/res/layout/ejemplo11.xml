@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtv1"
+        android:layout_marginLeft="25dp"
+        android:text="MA"
+        android:textSize="@dimen/mijin" />
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="23dp"
+        android:text="MA"
+        android:textSize="@dimen/mijin" />
+
+    <TextView
+        android:id="@+id/txtv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtv2"
+        android:layout_below="@+id/txtv2"
+        android:hint="SA"
+        android:text="SA"
+        android:textSize="@dimen/mijin" />
+
+    <TextView
+        android:id="@+id/txtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/txtv1"
+        android:text="PA"
+        android:textSize="@dimen/mijin" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/txtv3"
+        android:layout_marginRight="24dp" />
+
+    <CheckBox
+        android:id="@+id/checkpalabra1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtpalabra1"
+        android:layout_alignBottom="@+id/txtpalabra1"
+        android:layout_toRightOf="@+id/txtaux" />
+
+    <CheckBox
+        android:id="@+id/checkpalabra3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtpalabra3"
+        android:layout_alignBottom="@+id/txtpalabra3"
+        android:layout_toRightOf="@+id/txtaux" />
+
+    <TextView
+        android:id="@+id/txtpalabra1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/txtv3"
+        android:layout_marginTop="31dp"
+        android:text="Palabra 1" />
+
+    <TextView
+        android:id="@+id/txtpalabra3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtpalabra1"
+        android:layout_below="@+id/checkpalabra1"
+        android:layout_marginTop="15dp"
+        android:text="Palabra 2" />
+
+    <TextView
+        android:id="@+id/txtpalabra2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtpalabra3"
+        android:layout_below="@+id/checkpalabra3"
+        android:layout_marginTop="18dp"
+        android:text="Palabra 3" />
+
+    <CheckBox
+        android:id="@+id/checkpalabra2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtpalabra2"
+        android:layout_alignBottom="@+id/txtpalabra2"
+        android:layout_toRightOf="@+id/txtaux" />
+
+    <ImageButton
+        android:id="@+id/ibtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/checkpalabra1"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ico_mic" />
+
+    <TextView
+        android:id="@+id/txtaux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/check1"
+        android:layout_below="@+id/ibtn3"
+        android:text="TextView" />
+
+</RelativeLayout>
