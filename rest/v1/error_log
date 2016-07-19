@@ -1,0 +1,46 @@
+[15-Nov-2014 17:38:18 America/Denver] PHP Fatal error:  Call to undefined method mysqli::execute() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 42
+[15-Nov-2014 17:40:26 America/Denver] PHP Fatal error:  Call to undefined method mysqli::mysql_query() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 42
+[15-Nov-2014 17:40:28 America/Denver] PHP Fatal error:  Call to undefined method mysqli::mysql_query() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 42
+[15-Nov-2014 17:44:53 America/Denver] PHP Fatal error:  Call to undefined method mysqli::mysql_query() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 43
+[15-Nov-2014 17:57:28 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home5/intinnov/public_html/rest/include/DbHandler.php on line 45
+[07-Dec-2014 07:52:44 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 159
+[07-Dec-2014 07:52:51 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 159
+[07-Dec-2014 07:52:53 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 159
+[07-Dec-2014 07:52:54 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 159
+[07-Dec-2014 07:53:45 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 159
+[07-Dec-2014 08:01:42 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 159
+[07-Dec-2014 08:02:08 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 159
+[07-Dec-2014 08:16:56 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 162
+[07-Dec-2014 08:27:50 America/Denver] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 162
+[19-Dec-2014 18:59:00 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home5/intinnov/public_html/rest/include/DbHandler.php on line 136
+[19-Dec-2014 18:59:14 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home5/intinnov/public_html/rest/include/DbHandler.php on line 136
+[20-Dec-2014 06:27:40 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 137
+[20-Dec-2014 06:28:54 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:29:50 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:29:54 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:30:31 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:30:40 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:31:22 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:31:28 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:33:07 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[20-Dec-2014 07:33:14 America/Denver] PHP Fatal error:  Call to a member function execute() on a non-object in /home5/intinnov/public_html/rest/include/DbHandler.php on line 138
+[11-Jan-2015 05:32:27 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:32:33 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:33:04 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:33:08 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:33:12 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:34:03 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:34:21 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:35:42 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:35:45 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:35:57 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:37:23 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:38:02 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:38:18 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:38:23 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:38:32 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:40:02 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:41:19 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:42:46 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:46:34 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
+[11-Jan-2015 05:46:48 America/Denver] PHP Fatal error:  Cannot redeclare DbHandler::getAllSecuences() in /home5/intinnov/public_html/rest/include/DbHandler.php on line 644
